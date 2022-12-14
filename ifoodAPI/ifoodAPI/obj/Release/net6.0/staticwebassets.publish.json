@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hoeNoPVEI7BGvJLa6M2m8AEsLke6A51F93LuRjOs2no=",
+  "Source": "ifoodAPI",
+  "BasePath": "_content/ifoodAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

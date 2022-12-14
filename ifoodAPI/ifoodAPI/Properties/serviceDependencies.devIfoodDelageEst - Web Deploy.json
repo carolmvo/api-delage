@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "ignored": "true",
+      "type": "mssql"
+    },
+    "apis2": {
+      "ignored": "true",
+      "type": "apis.azure"
+    },
+    "secrets1": {
+      "ignored": "true",
+      "type": "secrets"
+    }
+  }
+}
