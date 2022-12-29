@@ -216,14 +216,23 @@ main {
   display: flex;
 }
 
+input{
+  border-radius: 5px;
+}
+
 .resultado {
   width: 100vw;
   height: 92vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .resultado ul li {
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   color: #FFF;
   width: 25%;
+  padding-bottom: 0.2%;
+  padding-left: 1%;
 }
 
 .resultado ul {
@@ -231,7 +240,22 @@ main {
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
+  padding: 20px;
+
 }
+
+.resultado input[id="Complemento"], .resultado input[id="Cidade"]{
+  background-color: #94505E;
+  color: #d8cdcf;
+  border: 1px solid #5e343c;
+}
+
+.resultado input[id="CEP"], .resultado input[id="UF"]{
+  background-color: #201921;
+  color: #d8cdcf;
+  border: 1px solid #0e0b0e;
+}
+
 .resultado ul li:nth-child(odd){
   background: #201921;
   list-style: none;
